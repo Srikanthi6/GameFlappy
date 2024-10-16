@@ -77,7 +77,7 @@ const Game = () => {
     speakText(text);
 
     // Play sound based on the type
-    if (soundType === 'hitt' && hitSound) {
+    if (soundType === 'hittt' && hitSound) {
       playSound(hitSound);
     } else if (soundType === 'warning' && warningSound) {
       playSound(warningSound);
